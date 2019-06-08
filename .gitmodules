@@ -7,3 +7,6 @@
 [submodule "lv_drivers"]
 	path = lv_drivers
 	url = https://github.com/littlevgl/lv_drivers.git
+[submodule "lv_mister"]
+	path = lv_mister
+	url = git@github.com:alanswx/lv_mister

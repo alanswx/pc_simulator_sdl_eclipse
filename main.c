@@ -66,18 +66,25 @@ int main(int argc, char ** argv)
     /*Initialize the HAL (display, input devices, tick) for LittlevGL*/
     hal_init();
 
+create_main2();
+//create_ini_list( );
+//create_wifi_list();
     /*Load a demo*/
-    demo_create();
+    //demo_create();
 
     /*Try the benchmark to see how fast your GUI is*/
-//    benchmark_create();
+    //benchmark_create();
 
     /*Check the themes too*/
-//    lv_test_theme_1(lv_theme_night_init(15, NULL));
+    //lv_test_theme_1(lv_theme_night_init(15, NULL));
+//lv_test_theme_2();
 
     /* A keyboard and encoder (mouse wheel) control example*/
 //    lv_test_group_1();
-
+//terminal_create();
+//terminal_add("hello world\n");
+//terminal_add("hi there\n");
+//terminal_add("again\n");
     while(1) {
         /* Periodically call the lv_task handler.
          * It could be done in a timer interrupt or an OS task too.*/

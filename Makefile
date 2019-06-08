@@ -18,7 +18,10 @@ include $(LVGL_DIR)/lvgl/lvgl.mk
 include $(LVGL_DIR)/lv_drivers/lv_drivers.mk
 include $(LVGL_DIR)/lv_examples/lv_examples.mk
 
-CSRCS +=$(LVGL_DIR)/mouse_cursor_icon.c
+CSRCS +=$(LVGL_DIR)/lv_mister/mouse_cursor_icon.c
+CSRCS +=$(LVGL_DIR)/lv_mister/wifi.c
+CSRCS +=$(LVGL_DIR)/lv_mister/iniedit.c
+CSRCS +=$(LVGL_DIR)/lv_mister/mainmenu.c
 
 OBJEXT ?= .o
 
@@ -32,7 +35,7 @@ OBJS = $(AOBJS) $(COBJS)
 
 ## MAINOBJ -> OBJFILES
 
-all: clean default
+all: default
 
 %.o: %.c
 	@$(CC)  $(CFLAGS) -c $< -o $@
