@@ -67,6 +67,7 @@ int main(int argc, char ** argv)
     hal_init();
 create_main_window( );
 //create_main2();
+//create_text_window();
 //create_ini_list( );
 //create_wifi_list();
     /*Load a demo*/
