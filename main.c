@@ -65,8 +65,8 @@ int main(int argc, char ** argv)
 
     /*Initialize the HAL (display, input devices, tick) for LittlevGL*/
     hal_init();
-
-create_main2();
+create_main_window( );
+//create_main2();
 //create_ini_list( );
 //create_wifi_list();
     /*Load a demo*/
