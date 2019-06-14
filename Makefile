@@ -23,6 +23,7 @@ CSRCS +=$(LVGL_DIR)/lv_mister/wifi.c
 CSRCS +=$(LVGL_DIR)/lv_mister/iniedit.c
 CSRCS +=$(LVGL_DIR)/lv_mister/mainmenu.c
 CSRCS +=$(LVGL_DIR)/lv_mister/window.c
+CSRCS +=$(LVGL_DIR)/lv_mister/browser.c
 
 OBJEXT ?= .o
 
