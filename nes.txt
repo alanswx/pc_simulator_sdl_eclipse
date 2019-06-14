@@ -17944,4 +17944,3 @@
 ./Unsupported/PowerPak - Unsupported Mapper/Sort By - Mapper/Mapper 250/Time Diver - Avenger (Asia) (En) (Unl).nes
 ./Unsupported/PowerPak - Unsupported Mapper/Sort By - Mapper/Mapper 255
 ./Unsupported/PowerPak - Unsupported Mapper/Sort By - Mapper/Mapper 255/Buzz & Waldog (USA) (Proto) (Unl).nes
-./a.txt
